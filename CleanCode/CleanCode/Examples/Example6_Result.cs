@@ -1,18 +1,22 @@
-﻿namespace CleanCode.Cases.Names
+﻿namespace CleanCode.Examples
 {
-    class Example6
+    class Example6_Result
     {
         class PermissionChecker
         {
+            private const string AdminRole = "Admin";
+            private const string UserRole = "User";
+            private const string ModeratorRole = "Moderator";
+
             public bool CanRead(string role)
             {
-                if (role == "Admin")
+                if (role == AdminRole)
                     return true;
 
-                if (role == "User")
+                if (role == UserRole)
                     return true;
 
-                if (role == "Moderator")
+                if (role == ModeratorRole)
                     return true;
 
                 return false;
@@ -20,13 +24,13 @@
 
             public bool CanWrite(string role)
             {
-                if (role == "Admin")
+                if (role == AdminRole)
                     return true;
 
-                if (role == "User")
+                if (role == UserRole)
                     return false;
 
-                if (role == "Modetaror")
+                if (role == ModeratorRole)
                     return true;
 
                 return false;

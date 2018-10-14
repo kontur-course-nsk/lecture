@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace CleanCode.Cases.Names
+namespace CleanCode.Examples
 {
     class Example5_Result
     {

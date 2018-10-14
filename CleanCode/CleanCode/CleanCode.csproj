@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,20 +44,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cases\Names\Example2_Result.cs" />
-    <Compile Include="Cases\Names\Example2.cs" />
-    <Compile Include="Cases\Names\Example1.cs" />
-    <Compile Include="Cases\Names\Example1_Result.cs" />
-    <Compile Include="Cases\Names\Example3_Result.cs" />
-    <Compile Include="Cases\Names\Example3.cs" />
-    <Compile Include="Cases\Names\Example4_Result.cs" />
-    <Compile Include="Cases\Names\Example4.cs" />
-    <Compile Include="Cases\Names\Example5_Result.cs" />
-    <Compile Include="Cases\Names\Example5.cs" />
-    <Compile Include="Cases\Names\Example6_Result.cs" />
-    <Compile Include="Cases\Names\Example6.cs" />
-    <Compile Include="Cases\Names\Example7_Result.cs" />
-    <Compile Include="Cases\Names\Example7.cs" />
+    <None Include="Examples\Example10.cs" />
+    <Compile Include="Examples\Example10_Result.cs" />
+    <Compile Include="Examples\Example11.cs" />
+    <Compile Include="Examples\Example12_Result.cs" />
+    <Compile Include="Examples\Example12.cs" />
+    <Compile Include="Examples\Example13_Result.cs" />
+    <Compile Include="Examples\Example13.cs" />
+    <Compile Include="Examples\Example8_Result.cs" />
+    <Compile Include="Examples\Example9_Result.cs" />
+    <Compile Include="Examples\Example9.cs" />
+    <Compile Include="Examples\Infrastructure\Client.cs" />
+    <Compile Include="Examples\Infrastructure\ClientContext.cs" />
+    <Compile Include="Examples\Example2_Result.cs" />
+    <Compile Include="Examples\Example2.cs" />
+    <Compile Include="Examples\Example1.cs" />
+    <Compile Include="Examples\Example1_Result.cs" />
+    <Compile Include="Examples\Example3_Result.cs" />
+    <Compile Include="Examples\Example3.cs" />
+    <Compile Include="Examples\Example4_Result.cs" />
+    <Compile Include="Examples\Example4.cs" />
+    <Compile Include="Examples\Example5_Result.cs" />
+    <Compile Include="Examples\Example5.cs" />
+    <Compile Include="Examples\Example6_Result.cs" />
+    <Compile Include="Examples\Example6.cs" />
+    <Compile Include="Examples\Example7_Result.cs" />
+    <Compile Include="Examples\Example7.cs" />
+    <Compile Include="Examples\Example8.cs" />
+    <Compile Include="Examples\Infrastructure\Session.cs" />
+    <Compile Include="Examples\Infrastructure\User.cs" />
+    <Compile Include="Examples\Infrastructure\UserContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

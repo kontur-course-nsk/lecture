@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace CleanCode.Cases.Names
+﻿namespace CleanCode.Examples
 {
     class Exaple2
     {

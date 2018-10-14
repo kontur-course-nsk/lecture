@@ -1,9 +1,12 @@
 ﻿using System;
 
-namespace CleanCode.Cases.Names
+namespace CleanCode.Examples
 {
-    class Example7
+    class Example7_Result
     {
+        private static double angle1 = Math.PI / 4;
+        private static double angle2 = 3 * Math.PI / 4;
+
         public static void DrawDragonFractal(Pixels pixels, int iterationsCount, int seed)
         {
             var random = new Random(seed);
@@ -14,25 +17,17 @@ namespace CleanCode.Cases.Names
                 if (randomNumber == 1)
                 {
                     t = x;
-                    x = (x * Math.Cos(0.785398) - y * Math.Sin(0.785398)) / Math.Sqrt(2);
-                    y = (t * Math.Sin(0.785398) + y * Math.Cos(0.785398)) / Math.Sqrt(2);
+                    x = (x * Math.Cos(angle1) - y * Math.Sin(angle1)) / Math.Sqrt(2);
+                    y = (t * Math.Sin(angle1) + y * Math.Cos(angle1)) / Math.Sqrt(2);
                 }
                 else
                 {
                     t = x;
-                    x = (x * Math.Cos(2.35619) - y * Math.Sin(2.35619)) / Math.Sqrt(2) + 1;
-                    y = (t * Math.Sin(2.35619) + y * Math.Cos(2.35619)) / Math.Sqrt(2);
+                    x = (x * Math.Cos(angle2) - y * Math.Sin(angle2)) / Math.Sqrt(2) + 1;
+                    y = (t * Math.Sin(angle2) + y * Math.Cos(angle2)) / Math.Sqrt(2);
                 }
                 pixels.SetPixel(x, y);
             }
-        }
-    }
-
-    internal class Pixels
-    {
-        public void SetPixel(double d, double d1)
-        {
-            throw new NotImplementedException();
         }
     }
 }

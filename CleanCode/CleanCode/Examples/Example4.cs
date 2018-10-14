@@ -1,6 +1,6 @@
-﻿namespace CleanCode.Cases.Names
+﻿namespace CleanCode.Examples
 {
-    class Example4_Result
+    class Example4
     {
         class AccountList
         {
@@ -15,24 +15,24 @@
 
         class PhoneList
         {
-            public string Search()
+            public string Find()
             {
                 return null;
             }
 
-            public void Delete()
+            public void Remove()
             {
             }
         }
 
-        class DocumentListManager
+        class DocumentList
         {
             public string Find()
             {
                 return null;
             }
 
-            public void PutNew(string document)
+            public void Add(string document)
             {
             }
 
