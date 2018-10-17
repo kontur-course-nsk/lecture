@@ -57,5 +57,17 @@ namespace CleanCode
 
             Example12.CreateFile("file2", "bbbbbbb", false);
         }
+
+        public static void RunExample14()
+        {
+            if (!Example14.IsNotConnected())
+            {
+                Console.WriteLine("a");
+            }
+            else
+            {
+                Console.WriteLine("b");
+            }
+        }
     }
 }
