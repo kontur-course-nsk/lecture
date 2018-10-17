@@ -15,24 +15,24 @@
 
         class PhoneList
         {
-            public string Find()
+            public string Search()
             {
                 return null;
             }
 
-            public void Remove()
+            public void Delete()
             {
             }
         }
 
-        class DocumentList
+        class DocumentListManager
         {
             public string Find()
             {
                 return null;
             }
 
-            public void Add(string document)
+            public void PutNew(string document)
             {
             }
 

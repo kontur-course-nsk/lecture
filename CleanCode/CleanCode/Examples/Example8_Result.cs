@@ -15,7 +15,7 @@ namespace CleanCode.Examples
 
             foreach (var client in activeClients)
             {
-                Email(client);
+                SendEmail(client);
             }
         }
 
@@ -25,7 +25,7 @@ namespace CleanCode.Examples
         }
 
 
-        private void Email(Client client)
+        private void SendEmail(Client client)
         {
             //send email
         }
