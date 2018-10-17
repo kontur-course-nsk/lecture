@@ -4,10 +4,10 @@ namespace CleanCode.Examples
 {
     class Example3_Result
     {
-        private int ServicePort;
+        public int ServicePort;
 
-        private DateTime LastImportDate;
+        public DateTime LastImportDate;
 
-        private string EmployeeEmail;
+        public string EmployeeEmail;
     }
 }

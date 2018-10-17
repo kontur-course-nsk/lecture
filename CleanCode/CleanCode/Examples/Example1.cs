@@ -5,7 +5,7 @@ namespace CleanCode.Examples
     public class Example1
     {
         /// Что вернется в результате?
-        public int GetResult(DateTime p)
+        public static int GetResult(DateTime p)
         {
             DateTime pp = DateTime.Today;
 

@@ -21,7 +21,7 @@ namespace CleanCode.Examples
                 {
                     t = x;
                     x = (x * Math.Cos(2.35619) - y * Math.Sin(2.35619)) / Math.Sqrt(2) + 1;
-                    y = (t * Math.Sin(2.35619) + y * Math.Cos(2.35619)) / Math.Sqrt(2);
+                    y = (t * Math.Sin(2.35619) + y * Math.Cos(2.33619)) / Math.Sqrt(2);
                 }
                 pixels.SetPixel(x, y);
             }

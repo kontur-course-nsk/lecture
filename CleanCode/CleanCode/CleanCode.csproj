@@ -46,6 +46,7 @@
   <ItemGroup>
     <None Include="Examples\Example10.cs" />
     <Compile Include="Examples\Example10_Result.cs" />
+    <Compile Include="Examples\Example11_Result.cs" />
     <Compile Include="Examples\Example11.cs" />
     <Compile Include="Examples\Example12_Result.cs" />
     <Compile Include="Examples\Example12.cs" />

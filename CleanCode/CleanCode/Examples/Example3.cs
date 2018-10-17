@@ -2,10 +2,10 @@
 {
     class Example3
     {
-        private int srvcprt;
+        public int srvcprt;
 
-        private int lst_imp_hhmmss;
+        public int lst_imp_hhmmss;
 
-        private string employeeemail;
+        public string employeeemail;
     }
 }

@@ -2,9 +2,9 @@
 
 namespace CleanCode.Examples
 {
-    class Example12
+    public class Example12
     {
-        public void CreateFile(string name, string content, bool temp = false)
+        public static void CreateFile(string name, string content, bool temp)
         {
             if (temp)
             {

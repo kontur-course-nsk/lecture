@@ -1,8 +1,8 @@
 ﻿namespace CleanCode.Examples
 {
-    class Exaple2
+    public class Example2
     {
-        class Car
+        public class Car
         {
             public float CarPrice { get; set; }
 
