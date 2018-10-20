@@ -59,9 +59,11 @@
     <Compile Include="Examples\Example15.cs" />
     <Compile Include="Examples\Example16_Result.cs" />
     <Compile Include="Examples\Example16.cs" />
+    <Compile Include="Examples\Example17_Result.cs" />
     <Compile Include="Examples\Example8_Result.cs" />
     <Compile Include="Examples\Example9_Result.cs" />
     <Compile Include="Examples\Example9.cs" />
+    <Compile Include="Examples\Example17.cs" />
     <Compile Include="Examples\Infrastructure\Client.cs" />
     <Compile Include="Examples\Infrastructure\ClientContext.cs" />
     <Compile Include="Examples\Example2_Result.cs" />
