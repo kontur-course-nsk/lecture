@@ -71,7 +71,7 @@ namespace TextParser
                 }
             }
 
-            return new[] 
+            return new[]
             {
                 string.Format("Top app: {0} with mark {1}", topApp.Key, topApp.Value),
                 string.Format("Top category: {0} with mark {1}", topCat.Key, topCat.Value)
@@ -106,21 +106,13 @@ namespace TextParser
                     var name = data1[i].Substring(1, t - 1); //берем все название в кавычках
                     var mark = 0;
                     if (data1[i].Contains("Positive"))
-                    {
                         mark = 1;
-                    }
-                    else if (data1[i].Contains("Neutral"))
-                    {
-                        mark = 0;
-                    }
-                    else if (data1[i].Contains("Negative"))
-                    {
-                        mark = -1;
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                        else if (data1[i].Contains("Neutral"))
+                            mark = 0;
+                            else if (data1[i].Contains("Negative"))
+                                mark = -1;
+                                else
+                                    continue;
 
                     list.Add(new AppReview(name, mark));
                 }
@@ -130,21 +122,13 @@ namespace TextParser
                     var category = data1[i].Split(',')[1];
                     var mark = 0;
                     if (data1[i].Contains("Positive"))
-                    {
                         mark = 1;
-                    }
-                    else if (data1[i].Contains("Neutrak"))
-                    {
-                        mark = 0;
-                    }
-                    else if (data1[i].Contains("Negative"))
-                    {
-                        mark = -1;
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                        else if (data1[i].Contains("Neutral"))
+                            mark = 0;
+                            else if (data1[i].Contains("Negative"))
+                                mark = -1;
+                                else
+                                    continue;
 
                     list.Add(new AppReview(name, mark));
                 }
