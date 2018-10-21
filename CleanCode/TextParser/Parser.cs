@@ -11,7 +11,13 @@ namespace TextParser
         //файлы с приложениями и отзывами
         public static string[] Parse(string file1, string file2)
         {
+            //if (file1 == null)
+            //{
+            //    return null;
+            //}
+
             _list = GetApps(file1);
+            //_list = ParseReview(file1);
 
             var reviews = ParseReview(file2);
 

@@ -11,6 +11,7 @@ namespace CleanCode.Examples
 
         public static List<List<string>> ParseSentences(string text)
         {
+            //StringBuilder sb = new StringBuilder();
             var list = new List<List<string>>(); //список слов
             var sentences = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
             foreach (string sentence in sentences)
@@ -19,6 +20,7 @@ namespace CleanCode.Examples
                 if (list2.Count > 0) //если есть словаы
                 {
                     list.Add(list2);
+                    //sb.Append(sentence);
                 }
             }
             return list;
