@@ -1,7 +1,7 @@
 Основы проектирования
 =====================
 
-## Теририя
+## Теория
 
 Первая часть занятия посвящена терии. Рассматриваются принципы проектирования S.O.L.I.D. с примерами.
 [Презентация](https://docs.google.com/presentation/d/1MkJJ1IusiBlEJGbTSV8uygsxtzfUT5MUI0ymqJhNlDY/edit#slide=id.p)
