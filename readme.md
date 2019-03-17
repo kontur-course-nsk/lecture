@@ -110,7 +110,7 @@
 - [про проектирование API](https://docs.google.com/presentation/d/1e7umGTzKOG_uwVt6kMSDsrtunn8HyK2hdclFDW-SkjU/edit)
 - [практическая часть](https://github.com/kontur-course-nsk/lecture/tree/master/Web)
 
-## 9. Основы разработки HTTP-API. Часть 3
+## 9. Основы разработки HTTP-API. Часть 2
 
 Продолжаем создавать простой HTTP API
 
