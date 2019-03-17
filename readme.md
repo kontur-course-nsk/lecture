@@ -98,4 +98,15 @@
 
 ## 8. Основы разработки HTTP-API
 
+Рассказываем ребятам основы проектирования API (REST) и базовые знания ASP.NET Core.
+
+**Цель**
+
+- познакомить ребят с моделью ресурсов API
+- научить реализовывать CRUD операции над сущностями
+
+**Описание**
+
+- [про проектирование API](https://docs.google.com/presentation/d/1e7umGTzKOG_uwVt6kMSDsrtunn8HyK2hdclFDW-SkjU/edit)
+- [практическая часть](https://github.com/kontur-course-nsk/lecture/tree/master/Web)
 
