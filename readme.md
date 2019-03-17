@@ -122,4 +122,4 @@
 **Описание**
 
 - демострируем ребятам "хорошее" решение задания с семинара №8 с пояснениями и рассуждениями
-- выполняем [практическое задания](https://github.com/kontur-course-nsk/lecture/tree/master/Web2)
+- выполняем [практическое задание](https://github.com/kontur-course-nsk/lecture/tree/master/Web2)
