@@ -110,3 +110,16 @@
 - [про проектирование API](https://docs.google.com/presentation/d/1e7umGTzKOG_uwVt6kMSDsrtunn8HyK2hdclFDW-SkjU/edit)
 - [практическая часть](https://github.com/kontur-course-nsk/lecture/tree/master/Web)
 
+## 9. Основы разработки HTTP-API. Часть 3
+
+Продолжаем создавать простой HTTP API
+
+**Цель**
+
+- закрепить знания и навыки с предыдущего занятия
+- понять концепцию middleware
+
+**Описание**
+
+- демострируем ребятам "хорошее" решение задания с семинара №8 с пояснениями и рассуждениями
+- выполняем [практическое задания](https://github.com/kontur-course-nsk/lecture/tree/master/Web2)
